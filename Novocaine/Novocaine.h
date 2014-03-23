@@ -32,6 +32,7 @@
 #else
     #define USING_IOS
     #include <AVFoundation/AVFoundation.h>
+    #import <UIKit/UIKit.h>
 #endif
 
 #include <Block.h>
