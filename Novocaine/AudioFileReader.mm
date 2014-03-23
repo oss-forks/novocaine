@@ -73,6 +73,7 @@
     
     delete ringBuffer;
     
+    [super dealloc];
 }
 
 
