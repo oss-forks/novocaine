@@ -28,14 +28,14 @@
 
 #if defined __MAC_OS_X_VERSION_MAX_ALLOWED
     #define USING_OSX 
-    #include <CoreAudio/CoreAudio.h>
+    #import <CoreAudio/CoreAudio.h>
 #else
     #define USING_IOS
-    #include <AVFoundation/AVFoundation.h>
+    #import <AVFoundation/AVFoundation.h>
     #import <UIKit/UIKit.h>
 #endif
 
-#include <Block.h>
+#import <Block.h>
 
 
 #ifdef __cplusplus
