@@ -1,3 +1,4 @@
+/.yip
 # Exclude the build directory
 build/*
  
